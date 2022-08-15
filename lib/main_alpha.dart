@@ -1,4 +1,4 @@
-import 'package:base_clean_architecturetecture/core/environment/environment.dart';
+import 'package:base_clean_architecture/core/environment/environment.dart';
 
 import 'main.dart';
 
