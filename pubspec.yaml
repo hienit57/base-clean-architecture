@@ -1,0 +1,108 @@
+name: metaway_holdings
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  #RxDart
+  rxdart: ^0.27.4
+
+  #Local Storage
+  shared_preferences: ^2.0.15 #imported on 2th Jun 2022
+
+  #flavor
+  flutter_flavor: ^3.0.3 #imported on 2th Jun 2022
+  flutter_lints: ^2.0.1 #imported on 2th Jun 2022
+
+  #Internet
+  connectivity: ^3.0.3 #imported on 2th Jun 2022
+
+  #HTTP
+  http: ^0.13.4 #imported on 2th Jun 2022
+  dio: ^4.0.6 #imported on 2th Jun 2022
+  pretty_dio_logger: ^1.1.1 #imported on 2th Jun 2022
+  retrofit: ^3.0.1 #imported on 2th Jun 2022
+
+  #DI
+  get_it: ^7.2.0 #imported on 2th Jun 2022
+
+  #State Management
+  flutter_bloc: ^8.0.1 #imported on 2th Jun 2022
+
+  #Equatable
+  equatable: ^2.0.3 #imported on 2th Jun 2022
+  dartx: ^1.1.0 #imported on 2th Jun 2022
+
+  #Path Json
+  json_annotation: ^4.6.0
+  json_serializable: ^6.2.0
+
+  #Format
+  currency_text_input_formatter: ^2.1.5 #imported on 2th Jun 2022
+  pattern_formatter: ^2.0.0 #imported on 2th Jun 2022
+
+  #Others
+  jiffy: ^5.0.0 #imported on 2th Jun 2022
+  freezed: ^1.0.2+1 #imported on 2th Jun 2022
+  accordion: ^2.3.0 #imported on 2th Jun 2022
+  build_runner: ^2.2.0
+  retrofit_generator: ^3.0.0
+
+  #Pin_Code_Fields
+  pin_code_fields: ^7.4.0 #imported on 2th Jun 2022
+
+  #Image Network
+  cached_network_image: 3.2.1 #imported on 2th Jun 2022
+
+  #Logger
+  logger: 1.1.0 #imported on 2th Jun 2022
+
+  #SVG
+  flutter_svg: ^1.0.3 #imported on 2th Jun 2022
+
+  #Easy Localization
+  easy_localization: ^3.0.1 #imported on 2th Jun 2022
+
+  #Loading
+  loading_indicator: 3.1.0 #imported on 2th Jun 2022
+  flutter_easyloading: 3.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/localizations/
+    - assets/fonts/
+    - assets/icons/
+    - assets/images/
+
+  fonts:
+    - family: PlusJakartaSans
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-Light.ttf
+          weight: 300
+        - asset: assets/fonts/PlusJakartaSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/PlusJakartaSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/PlusJakartaSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PlusJakartaSans-Bold.ttf
+          weight: 700
