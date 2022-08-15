@@ -1,8 +1,8 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:metaway_holdings/generated/locale_keys.g.dart';
-import 'package:metaway_holdings/widget/c_text.dart';
-import 'package:metaway_holdings/widget/style/font_colors.dart';
+import 'package:base_clean_architecture/generated/locale_keys.g.dart';
+import 'package:base_clean_architecture/widget/c_text.dart';
+import 'package:base_clean_architecture/widget/style/font_colors.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);

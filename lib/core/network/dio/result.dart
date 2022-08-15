@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
-import 'package:metaway_holdings/core/network/exceptions/error_exception.dart';
-import 'package:metaway_holdings/core/network/exceptions/network_handler.dart';
-import 'package:metaway_holdings/core/network/network_checker.dart';
+import 'package:base_clean_architecture/core/network/exceptions/error_exception.dart';
+import 'package:base_clean_architecture/core/network/exceptions/network_handler.dart';
+import 'package:base_clean_architecture/core/network/network_checker.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:metaway_holdings/widget/utils/logger.dart';
+import 'package:base_clean_architecture/widget/utils/logger.dart';
 import '../network_constants.dart';
 part 'result.freezed.dart';
 

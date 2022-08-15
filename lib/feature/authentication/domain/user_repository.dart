@@ -1,8 +1,8 @@
-import 'package:metaway_holdings/core/network/clients/base_client.dart';
-import 'package:metaway_holdings/core/network/dio/result.dart';
-import 'package:metaway_holdings/feature/authentication/data/Bussines/response_login_model.dart';
-import 'package:metaway_holdings/feature/authentication/data/DTO/login_request.dart';
-import 'package:metaway_holdings/injectors.dart';
+import 'package:base_clean_architecture/core/network/clients/base_client.dart';
+import 'package:base_clean_architecture/core/network/dio/result.dart';
+import 'package:base_clean_architecture/feature/authentication/data/Bussines/response_login_model.dart';
+import 'package:base_clean_architecture/feature/authentication/data/DTO/login_request.dart';
+import 'package:base_clean_architecture/injectors.dart';
 
 abstract class UserRepository {
   Future<Result<LoginResponseModel>> loginRequest(LoginRequest request);

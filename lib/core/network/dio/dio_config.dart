@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:metaway_holdings/core/environment/environment.dart';
-import 'package:metaway_holdings/core/local/prefs_service.dart';
+import 'package:base_clean_architecture/core/environment/environment.dart';
+import 'package:base_clean_architecture/core/local/prefs_service.dart';
 import 'flutter_transformer.dart';
 import 'package:flutter/foundation.dart' as Foundation;
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';

@@ -3,11 +3,11 @@ import 'dart:async';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
-import 'package:metaway_holdings/core/environment/environment.dart';
-import 'package:metaway_holdings/core/local/prefs_service.dart';
-import 'package:metaway_holdings/injectors.dart';
-import 'package:metaway_holdings/router/app_pages.dart';
-import 'package:metaway_holdings/router/app_routes.dart';
+import 'package:base_clean_architecture/core/environment/environment.dart';
+import 'package:base_clean_architecture/core/local/prefs_service.dart';
+import 'package:base_clean_architecture/injectors.dart';
+import 'package:base_clean_architecture/router/app_pages.dart';
+import 'package:base_clean_architecture/router/app_routes.dart';
 
 void main() async {
   Environment().initEnv(EnvType.production);

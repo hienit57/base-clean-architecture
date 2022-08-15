@@ -5,7 +5,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
 import 'package:loading_indicator/loading_indicator.dart';
-import 'package:metaway_holdings/widget/style/font_colors.dart';
+import 'package:base_clean_architecture/widget/style/font_colors.dart';
 
 mixin CShowDialogsMixin {
   cShowDialog(BuildContext context,

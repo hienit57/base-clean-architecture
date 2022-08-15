@@ -1,4 +1,4 @@
-# metaway_holdings
+# base_clean_architecture
 
 A new Flutter application.
 
@@ -8,14 +8,13 @@ This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
-
 Generate localized keys
-  flutter pub run easy_localization:generate -S "assets/strings" -f keys -o locale_keys.g.dart
+flutter pub run easy_localization:generate -S "assets/localizations" -f keys -o locale_keys.g.dart
 
-Generate file *.g.dart: 
-  flutter pub run build_runner build --delete-conflicting-outputs
+Generate file \*.g.dart:
+flutter pub run build_runner build --delete-conflicting-outputs
 
-//Build android app: 
+//Build android app:
 
 #Alpha
 flutter build appbundle --flavor alpha -t lib/main_alpha.dart --debug

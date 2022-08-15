@@ -1,6 +1,6 @@
 {
-  "name": "metaway_holdings",
-  "short_name": "metaway_holdings",
+  "name": "base_clean_architecture",
+  "short_name": "base_clean_architecture",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#0175C2",

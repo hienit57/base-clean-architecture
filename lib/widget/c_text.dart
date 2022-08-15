@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:metaway_holdings/widget/style/font_colors.dart';
-import 'package:metaway_holdings/widget/style/font_size.dart';
+import 'package:base_clean_architecture/widget/style/font_colors.dart';
+import 'package:base_clean_architecture/widget/style/font_size.dart';
 
 class CText extends StatelessWidget {
   final double? width;

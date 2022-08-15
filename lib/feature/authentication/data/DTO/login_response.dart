@@ -1,5 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:metaway_holdings/feature/authentication/data/DTO/login_request.dart';
+import 'package:base_clean_architecture/feature/authentication/data/DTO/login_request.dart';
 part 'login_response.g.dart';
 
 @JsonSerializable()

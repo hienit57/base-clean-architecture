@@ -1,4 +1,4 @@
-import 'package:metaway_holdings/core/environment/environment.dart';
+import 'package:base_clean_architecturetecture/core/environment/environment.dart';
 
 import 'main.dart';
 

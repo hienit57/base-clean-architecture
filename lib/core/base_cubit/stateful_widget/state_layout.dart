@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:loading_indicator/loading_indicator.dart';
-import 'package:metaway_holdings/core/base_cubit/stateful_widget/state_error_view.dart';
-import 'package:metaway_holdings/core/network/exceptions/error_exception.dart';
+import 'package:base_clean_architecture/core/base_cubit/stateful_widget/state_error_view.dart';
+import 'package:base_clean_architecture/core/network/exceptions/error_exception.dart';
 
 import 'empty_view.dart';
 

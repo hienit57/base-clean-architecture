@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:metaway_holdings/feature/authentication/presentation/pages/login_page.dart';
-import 'package:metaway_holdings/router/app_pages.dart';
+import 'package:base_clean_architecture/feature/authentication/presentation/pages/login_page.dart';
+import 'package:base_clean_architecture/router/app_pages.dart';
 
 class AppPages {
   static Map<String, WidgetBuilder> getPages(BuildContext context) {

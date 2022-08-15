@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:metaway_holdings/feature/authentication/data/DTO/login_request.dart';
-import 'package:metaway_holdings/feature/authentication/data/DTO/login_response.dart';
+import 'package:base_clean_architecture/feature/authentication/data/DTO/login_request.dart';
+import 'package:base_clean_architecture/feature/authentication/data/DTO/login_response.dart';
 import 'package:retrofit/retrofit.dart';
 part 'base_client.g.dart';
 

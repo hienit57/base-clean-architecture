@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:metaway_holdings/widget/c_button.dart';
+import 'package:base_clean_architecture/widget/c_button.dart';
 
 class StateErrorView extends StatelessWidget {
   final String message;

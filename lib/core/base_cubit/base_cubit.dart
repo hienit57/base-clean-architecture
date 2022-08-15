@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:metaway_holdings/core/base_cubit/stateful_widget/state_layout.dart';
-import 'package:metaway_holdings/core/network/exceptions/error_exception.dart';
+import 'package:base_clean_architecture/core/base_cubit/stateful_widget/state_layout.dart';
+import 'package:base_clean_architecture/core/network/exceptions/error_exception.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:dartx/dartx.dart';
 

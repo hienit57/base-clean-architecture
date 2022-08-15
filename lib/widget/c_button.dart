@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:metaway_holdings/widget/c_text.dart';
-import 'package:metaway_holdings/widget/style/font_colors.dart';
+import 'package:base_clean_architecture/widget/c_text.dart';
+import 'package:base_clean_architecture/widget/style/font_colors.dart';
 
 class CButton extends StatelessWidget {
   final VoidCallback? onTap;

@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:metaway_holdings/core/network/exceptions/error_response.dart';
+import 'package:base_clean_architecture/core/network/exceptions/error_response.dart';
 
 import '../network_constants.dart';
 import 'error_exception.dart';

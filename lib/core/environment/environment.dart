@@ -1,6 +1,6 @@
-import 'package:metaway_holdings/core/environment/app_env.dart';
-import 'package:metaway_holdings/core/environment/production/production_env.dart';
-import 'package:metaway_holdings/core/environment/staging/staging_env.dart';
+import 'package:base_clean_architecture/core/environment/app_env.dart';
+import 'package:base_clean_architecture/core/environment/production/production_env.dart';
+import 'package:base_clean_architecture/core/environment/staging/staging_env.dart';
 
 import 'develop/develop_env.dart';
 
